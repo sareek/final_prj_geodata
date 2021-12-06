@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200&display=swap');
-.visualization-wrap {
+.summary-wrap {
     font-family: 'Oregano', cursive;
     }
 
@@ -34,7 +34,7 @@
         text-align: center;
         box-shadow: 1px 1px 0 #999;
       }
-    
+
       .img-holder1 {
         display: flex;
         justify-content: center;
@@ -59,4 +59,6 @@
         transition: transform .2s; 
         transform: scale(1.05);
       }
+    
+     
  

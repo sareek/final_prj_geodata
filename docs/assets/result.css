@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200&display=swap');
-.visualization-wrap {
+.result-wrap {
     font-family: 'Oregano', cursive;
+    max-width: 80rem;
     }
 
     ol {
