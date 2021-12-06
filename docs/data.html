@@ -1,0 +1,62 @@
+---
+layout: default
+---
+<link href="{{ "/assets/data.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}" rel="stylesheet">
+
+
+
+<div class="data-wrap">
+<h1>Data</h1>
+
+ Data from two sources mentioned below was used for this study. 
+
+  <ol>
+    <li>
+      Environmental Protection Agency (EPA)
+    </li>
+    <p>
+      Air quality Index for US by county from 2015-2019.
+    </p>
+    <li>
+      Census Data
+    </li>
+    <p>
+      Median Household Income by county from 2015-2019.
+    </p>   
+  </ol>
+
+  <p>
+    Data collected from EPA for Air Quality Index was in county level and overall records for 1842 
+    counties throughout the United States was present on the data. Data collected from census website
+    had records of Median Household Income for 3221 counties. For this study, records of
+    Median Household Income and AQI for 1842 counties was considered after dropping counties that 
+    do not have AQI values. Also, since the Median Household Income value collected from census data was average
+    value for five years and AQI values collected from EPA was just for one year, we averaged out the value of 
+    AQI for five consecutive years from 2015 to 2019 and and used that value for analysis. 
+  </p>
+
+  <p>
+    A new field (Low-Income) was also used for the data analysis in this study. Value of Low-Income was
+    either true or false. We considered Low-Income to be true if Median Household Income for that 
+    county is less than the average Median Household Income value of the whole United States.
+  </p>
+
+
+
+
+   <!-- <p>
+    The stakeholders for the website include researchers and practitioners trying to study problems related to air pollution in smart cities.
+    People who are interest in these kinds of study are encourage to reach out to us through linkedIn. We also plan to create facebook group and 
+    held live sessions from time to time inviting data scientists, researchers and other practitioners to discuss relevant problems and find ideas 
+    for solutions to those problems.
+   </p> 
+   <p>If you have any questions/ideas relevant to the study feel free to drop an email at sdhungel@gmail.com</p>
+   <p>Some comments from researchers include,</p>
+   <div class="comments">
+    <figure class=""><img class="img-prof" src="{{ site.baseurl }}/assets/images/img5.png" alt="professor"></figure>
+  <div class="divider"></div>
+  <div class="comments-text">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>    
+</div> -->
+</div>
